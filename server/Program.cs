@@ -60,8 +60,8 @@ class Server
                 int bytesRead = stream.Read(data, 0, data.Length);
                 string response = System.Text.Encoding.ASCII.GetString(data, 0, bytesRead);
                 Console.WriteLine($"Client response: {response}");
-                Console.WriteLine("Привет ")
             }
+            Console.WriteLine("Изменение");
         }
         finally
         {
